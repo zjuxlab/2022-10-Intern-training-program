@@ -12,46 +12,29 @@ xlab 2022年国庆期间纳新，实习成员练手仓库
 
 该内容属于基础的git使用。在操作之前请详细阅读我们分发的[git教程](https://xn4zlkzg4p.feishu.cn/wiki/wikcng1yvT4M86NXbVb0llp9xZd)。
 
-### 在本地先clone下整个仓库
+1. Fork整个仓库
 
--  **（建议）** 如果你在你的gitlab上添加了ssh key
+2. Clone你Fork下来的仓库至你的本地
 
-```bash
-git clone ssh://git@xlab.zju.edu.cn:2224/Br/2022-10-intern-training-program.git
-```
+3. 在本地仓库中写代码
 
-- 如果你没有添加ssh key
+4. 将本地的代码修改commit且push到你Fork下来的仓库中
 
-```bash
-git clone http://xlab.zju.edu.cn/git/Br/2022-10-intern-training-program.git
-```
+当你完成了所有的成果之后，请给%{这里差一个我们的公有邮箱}发一份邮件，遵循以下格式：
 
-### 创建自己的分支
+- Title: %{你的名字}-练手仓库提交
+- Content: %{你的仓库地址}
 
-```bash
-git checkout -b Your_name_homework
-```
 
-### 在自己的分支上进行操作
 
-具体请参考自己选择的前后端入门项目进行学习
+**注意：请确保以下人员拥有对你的仓库的访问权限，否则我们将无法验收你的成果！**
 
-### 提交你的代码
+（你可以单独为以下成员添加访问权限，或将你的仓库的可见性调成public）
 
-#### 第一次push
-
-```bash
- git push --set-upstream origin Your_name_homework
-```
-
-#### 之后的push
-
-```bash
-git push
-```
+<img src="pics/members.png" alt="members" style="zoom: 67%;" />
 
 -----
 
-Main分支已被protect，因此请不要试图push至Main分支。
+源项目仓库分支已被protect，因此请不要试图修改（push）源仓库。
 
-若以上操作没有成功，或者有任何问题，请及时在 **软件技术答疑** 群内提问，并附上 **#入门答疑 #Git**  两个tag
+若以上操作没有成功，或者有任何问题，请及时在 **2022-10 实习答疑群** 群内提问，并附上 **#入门答疑 #Git**  两个tag
