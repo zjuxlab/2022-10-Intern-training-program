@@ -30,8 +30,8 @@ xlab 2022年国庆期间纳新，实习成员练手仓库
 
 当你完成了所有的成果之后，请给**本仓库**提出issue，issue需遵循以下格式：
 
-- Title: %{你的名字}-repo
-- Description: %{你的仓库地址} + 其他想说的（可选）
+- Title: ${你的名字}-repo
+- Description: ${你的仓库地址} + 其他想说的（可选）
 
 <img src="pics/issue.png" alt="image-20220929131710787" style="zoom: 50%;" />
 
